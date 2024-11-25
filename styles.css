@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+.fullWidth {
+  width: 100%;
+}
+.marginBtn {
+  margin-bottom: 10px;
+}
+
+.headSection {
+  background-color: #0c244a;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 11.5em;
+}
+
+.headSection img {
+  height: 5vh;
+}
+.mainContainer {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 75vh;
+  width: 70%;
+  padding: 0;
+}
+
+.container h1 {
+  text-align: center;
+  padding-bottom: 18px;
+  font-size: 32px;
+}
+.quoteBoxContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  height: fit-content;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+.quoteContainer {
+  position: relative;
+  background-color: #f5f5f5;
+  width: 100%;
+  padding: 60px 40px;
+  margin: 10px  18px;
+  border-radius: 12px;
+}
+.author {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 10px 28px;
+  background-color: #f3bd00;
+  border-radius: 5px;
+  border: solid 1px black;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: #e7b603;
+}
+
+label {
+  display: block;
+  margin-bottom: 2px;
+  margin-left: 2px;
+}
+input {
+  padding: 10px;
+  border: solid 1px black;
+  border-radius: 5px;
+  width: 100%;
+}
+.combineInput {
+  display: flex;
+}
+#newAuthorName {
+  flex: 1;
+  margin-right: 4px;
+}
+.addAuthorBtn {
+  flex: 1;
+  /* margin-right: 4px; */
+}
+
